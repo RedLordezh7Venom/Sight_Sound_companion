@@ -2,7 +2,7 @@ from customtkinter import *
 from PIL import Image
 
 app = CTk()
-app.geometry("500x400")
+app.geometry("1000x700")
 my_img = CTkImage(dark_image=Image.open('groc.png'),size=(1000,800))
 img_2 = CTkImage(dark_image=Image.open('images.jpeg'),size=(300,50))
 img_3 = CTkImage(dark_image=Image.open('images_1.jpeg'),size=(300,50))
